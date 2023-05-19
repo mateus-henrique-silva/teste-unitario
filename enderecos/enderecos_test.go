@@ -10,6 +10,6 @@ func TestEnderecoFunc(t *testing.T) {
 
 	if TipoRecebido != esperado {
 
-		t.Error("O tipo recebido é diferente do esperado ")
+		t.Errorf("O tipo recebido é diferente do esperado que é %s e recebeu %s", esperado, TipoRecebido)
 	}
 }
