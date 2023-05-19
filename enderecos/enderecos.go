@@ -15,7 +15,7 @@ func TipoDeEnderecos(enderecos string) string {
 
 	}
 	if endtype {
-		return strings.Title(endMaiuscula)
+		return strings.Title(primeirapalavra)
 	}
 
 	return "tipo invalido"
